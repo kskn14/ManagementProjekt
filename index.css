@@ -17,13 +17,14 @@ header {
     padding-bottom: 20px;
 }
 
-/* REGELN FÜR ALLE BILDER (RESPONSIVITÄT) */
+
+   /* REGELN FÜR ALLE BILDER (RESPONSIVITÄT) */
 img {
-    /* GEÄNDERT: Setzt die maximale Breite auf 80% des verfügbaren Raumes */
-    max-width: 80%; 
+    /* GEÄNDERT: Setzt die maximale Breite auf 60% des verfügbaren Raumes, damit es kleiner aussieht */
+    max-width: 60%; 
     height: auto; 
     
-    /* Zentriert das Block-Element (Bild) horizontal. */
+    /* Zentrierung beibehalten */
     display: block; 
     margin: 0 auto 20px auto; 
     
@@ -40,3 +41,4 @@ main {
 h1 {
     margin-bottom: 30px;
 }
+
