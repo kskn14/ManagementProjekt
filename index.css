@@ -32,14 +32,14 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* NEUE REGEL: Reduziert NUR das Bild mit der Klasse "bild-eins" (bild1) */
-
+/* SPEZIELLE REGEL FÜR BILD 1: MINIMALE GRÖSSE ZUM TESTEN */
 .bild-eins {
-    /* ÄNDERUNG: Bild 1 ist jetzt fest 300 Pixel breit */
-    width: 10px;
-    height: auto; /* Behält das Seitenverhältnis bei */
-    max-width: 100%; /* WICHTIG: Stellt sicher, dass das Bild auf sehr kleinen Handys nicht breiter als 100% wird */
-
+    /* ÄNDERUNG: Setzt die Breite extrem klein auf 50 Pixel */
+    width: 50px !important; 
+    
+    /* WICHTIG: Stellt sicher, dass das Bild auf kleinen Handys nicht überläuft */
+    max-width: 100% !important; 
+    height: auto !important; /* Füge dies hinzu, um sicherzustellen, dass die Höhe mitskaliert */
 }
 /* Zusätzliches Styling für die Hauptinhalte */
 main {
@@ -50,6 +50,7 @@ main {
 h1 {
     margin-bottom: 30px;
 }
+
 
 
 
