@@ -6,27 +6,26 @@ body {
     color: #333;
     margin: 0; 
     padding: 20px; 
-    
-    /* NEU: Zentriert Inline-Elemente (wie Text und Überschriften) im Body */
     text-align: center; 
+    
+    /* NEU: Verhindert jegliches horizontales Scrollen */
+    overflow-x: hidden;
 }
 
 /* HEADER-STYLING */
 header {
-    /* text-align: center; wird jetzt vom body geerbt */
     padding-bottom: 20px;
 }
 
 /* REGELN FÜR ALLE BILDER (RESPONSIVITÄT) */
 img {
-    max-width: 100%; 
+    /* GEÄNDERT: Setzt die maximale Breite auf 80% des verfügbaren Raumes */
+    max-width: 80%; 
     height: auto; 
     
-    /* WICHTIG: Erlaubt dem Bild, sich über "margin: 0 auto;" zu zentrieren */
+    /* Zentriert das Block-Element (Bild) horizontal. */
     display: block; 
-    
-    /* NEU: Zentriert das Block-Element (Bild) horizontal. */
-    margin: 0 auto 20px auto; /* Oben 0, Links/Rechts Auto (zentriert), Unten 20px */
+    margin: 0 auto 20px auto; 
     
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -35,11 +34,9 @@ img {
 /* Zusätzliches Styling für die Hauptinhalte */
 main {
     max-width: 800px; 
-    /* Bleibt wie es ist, um den Hauptbereich zu begrenzen und zu zentrieren */
     margin: 0 auto; 
 }
 
 h1 {
-    /* NEU: Fügt einen gewissen Abstand zur Überschrift hinzu, wenn sie zentriert ist */
     margin-bottom: 30px;
 }
