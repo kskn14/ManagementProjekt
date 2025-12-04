@@ -43,7 +43,7 @@ img {
 }
 .bild-zwei {
     /* ÄNDERUNG: Setzt die Breite extrem klein auf 50 Pixel */
-    width: 200px !important; 
+    width: 400px !important; 
     
     /* WICHTIG: Stellt sicher, dass das Bild auf kleinen Handys nicht überläuft */
     max-width: 100% !important; 
@@ -58,6 +58,7 @@ main {
 h1 {
     margin-bottom: 30px;
 }
+
 
 
 
