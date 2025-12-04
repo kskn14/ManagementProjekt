@@ -34,7 +34,7 @@ img {
 
 /* NEUE REGEL: Reduziert NUR das Bild mit der Klasse "bild-eins" (bild1) */
 .bild-eins {
-    max-width: 40%; /* Bild 1 ist jetzt kleiner */
+    max-width: 10%; /* Bild 1 ist jetzt kleiner */
 }
 /* Zusätzliches Styling für die Hauptinhalte */
 main {
@@ -45,5 +45,6 @@ main {
 h1 {
     margin-bottom: 30px;
 }
+
 
 
