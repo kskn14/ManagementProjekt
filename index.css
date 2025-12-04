@@ -36,7 +36,7 @@ img {
 
 .bild-eins {
     /* ÄNDERUNG: Bild 1 ist jetzt fest 300 Pixel breit */
-    width: 300px;
+    width: 10px;
     height: auto; /* Behält das Seitenverhältnis bei */
     max-width: 100%; /* WICHTIG: Stellt sicher, dass das Bild auf sehr kleinen Handys nicht breiter als 100% wird */
 
@@ -50,6 +50,7 @@ main {
 h1 {
     margin-bottom: 30px;
 }
+
 
 
 
