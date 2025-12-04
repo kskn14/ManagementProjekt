@@ -32,6 +32,10 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* NEUE REGEL: Reduziert NUR das Bild mit der Klasse "bild-eins" (bild1) */
+.bild-eins {
+    max-width: 40%; /* Bild 1 ist jetzt kleiner */
+}
 /* Zusätzliches Styling für die Hauptinhalte */
 main {
     max-width: 800px; 
@@ -41,4 +45,5 @@ main {
 h1 {
     margin-bottom: 30px;
 }
+
 
